@@ -22,5 +22,5 @@ def now_serving(katz_deli)
     return
   end
   puts "Currently serving #{katz_deli.shift}."
-  return katz_deli
+  katz_deli
 end
